@@ -46,5 +46,5 @@ fetch('https://cs571api.cs.wisc.edu/rest/su25/ice/chili', {
     }, []));
 })
 .catch(err => {
-    alert("Uh oh! Something went wrong. Are you logged in with your Badger ID?")
+    alert("Uh oh! Something went wrong.")
 })
